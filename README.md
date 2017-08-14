@@ -1,6 +1,18 @@
 Generation Take-Home Coding Challenge
 =================================
+The App contains 3 main components 
+* The Map
+* The "Favorite Places" Table
+* A Counter
 
+The Map shows markers loaded from the json file and also displays a infobox when hovered on.
+To circumvent the OVER_QUERY_LIMIT server error, I used setTimeOut. As each point loads on the map, the counter increments.
+
+I have included 1 test case. This has been done using Enzyme + Jest
+To run the test
+```
+npm test
+```
 
 ### How do you start?
 

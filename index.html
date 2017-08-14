@@ -1,11 +1,50 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sample App</title>
+    <title>Sample.  App</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A"></script>
+    <style>
+		html, body {
+        height : 100%;
+        margin : 0;
+        padding : 0;
+      }
+      .container { 
+        height: 90%; 
+      }
+
+      #table {
+        height : 100%;
+        width:50%;
+        float:left;
+        padding: 1%;
+      }
+
+      #map {
+        height : 100%;
+        width:50%;
+        float:right;
+        padding: 1%;
+      }
+      td.rows{
+        width: 100%;
+    height: 100%;
+    overflow:hidden;
+
+           height: 20px;
+
+      }
+
+      #map_container{
+        height:100%;
+      }
+    </style>
   </head>
   <body>
-    <div id='root'>
+    <div class='container'>
     </div>
+
     <script src="/static/bundle.js"></script>
   </body>
 </html>
